@@ -1,0 +1,440 @@
+*{
+  box-sizing: border-box  ;
+}
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .jersey-20-regular {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .jaini-regular {
+    font-family: "Jaini", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  #section1{
+    height: 80vh;    
+    background-color: rgb(225, 222, 222);
+   text-shadow: 1px 4px 0px black,2px 3px 6px black;
+    background-image: url("../image/w2.png");
+    /* background-image: url("../image/hill-img.png"); */
+    /* background-image:  url("../image/robot.jpg"); */
+    /* background-image: url("../image/IMG-20230915-WA0043~2.jpg"); */
+    /* transform: rotatey(180deg); */
+/* background-image: url("../image/WhatsApp_Image_2024-04-27_at_11.40.59_PM-ai-brush-removebg-rnk378t.png"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 51% 140%;
+    background-position-x:450px;
+    background-position-y: -65px;
+    
+    animation: myPic 2s linear 0s 1;
+
+  }
+  @keyframes myPic {
+
+    0%{
+     
+      background-position-y: 270px;
+
+    }
+    50%
+    {
+      background-position-y: 0px;
+    }100%{
+
+      background-position-y: -65px;
+    }
+  
+    
+  }
+  
+#sec1-name{
+  width: 400px;
+  box-sizing: border-box;
+  color: white;
+  font-size:40px;
+  position: relative;
+  top: 200px;
+  left:240px;
+  
+}
+#sec1-fname{
+  width: 400px;
+  color:black;
+  font-size: 60px;
+  font-weight:900;
+  font-family: cursive;
+  letter-spacing: 2px;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  top: 190px;
+  left: 230px;
+
+}
+
+#sec1-lname{
+  width: 500px;
+  color: rgb(128, 139, 128);
+  font-size: 60px;
+  font-weight:700;
+  font-family: cursive;
+  letter-spacing: 2px;
+
+  display: flex;
+  gap: 4px;
+  position: relative;
+  top: 160px;
+  left: 250px;
+
+}
+
+
+#sec1-name p{
+  color: green;
+  display: inline-block;
+  font-size: 60px;
+  font-weight:700;
+  letter-spacing: 1px;
+  
+  font-family: cursive;
+}
+
+#sec1-lname>p:hover,#sec1-fname>p:hover{
+  transform: scale(1.2);
+  text-shadow: 1px 2px 6px white;
+  
+}
+
+#profession{
+  width: 400px;
+  color: rgb(206, 75, 75);
+  font-size: 22px;
+  text-decoration:underline;
+  /* background-color: aqua; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 800;
+  text-shadow: 1px 20px 12px  rgba(0, 0, 0, 0.862);
+  position: relative;
+  top: 170px;
+  left:230px;
+  letter-spacing: 4px;
+  text-align: center;
+
+}
+
+/* ^..................................................................... */
+
+#section2{
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.764);
+    position: relative;
+}
+#work{
+  width: 100px;
+  color: rgba(128, 0, 128, 0.779);
+  font-size: 150px;
+  font-weight:600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 5px;
+  left: 1100px;
+}
+
+#project{
+  font-size: 40px;
+  width: 400px;
+  /* font-family: jaini-regular ; */
+  color: white;
+  letter-spacing: 6px;
+  text-shadow: -1px 0px 6px green ;
+  position: absolute;
+  top: 75px;
+  left: 144px;
+
+}
+
+#simon{
+
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ^........................................................... */
+
+#section6{
+  height: 600px;
+  background-color: rgb(228, 237, 238);
+  position: relative;
+  
+}
+
+
+#stick{
+  height: 100%;
+  width: 4px;
+  /* border-radius: 50%; */
+  border: 1px solid blue;
+  background-color: white;
+  border-top: none;
+  border-bottom: none;
+
+  /* box-shadow: 2px 0px 3px blue ,3px 0px 6px rgb(15, 15, 230), 6px 0px 12px blue  ,      -2px 0px 3px blue ,-3px 0px 6px rgb(15, 15, 230), -6px 0px 12px blue; */
+  position: absolute;
+  animation: sword 4s ease 0s 1 forwards;
+  left: 100px ;
+}
+@keyframes sword{
+  0%{
+    /* background-color: black; */
+    box-shadow: 3px 0px 30px rgb(15, 15, 230), 6px 0px 30px blue     ,-3px 0px 300px rgb(15, 15, 230), -6px 0px 300px blue;
+ 
+  }100%{
+    /* background-color: blue; */
+
+  box-shadow: 2px 0px 3px blue ,3px 0px 6px rgb(51, 51, 218), 6px 0px 12px rgb(116, 116, 229)  ,      -2px 0px 3px blue ,-3px 0px 6px rgb(81, 81, 222), -6px 0px 12px rgb(135, 135, 232);
+
+  }
+  
+}
+
+
+.edu{
+  width: 400px;
+  color: yellow;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  display: flex;
+  align-items:center
+  
+}
+
+#edu{
+  font-size: 40px;
+  width: 200px;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-shadow: -4px 1px 4px rgb(149, 210, 237);
+  text-decoration: underline;
+}
+
+#edu-pic{
+  height: 555px;
+  width: 615px;
+  /* border: 2px solid red; */
+  position:absolute;
+  left: 900px;
+  top:  45px;
+  overflow: hidden;
+  /* z-index: -2; */
+}
+.college{
+  height: 555px;
+  width: 200px;
+  background-color: yellow;
+  position: relative;
+  left: 99px;
+  /* top: -100px; */
+  transform: skewX(-20deg);
+}
+.college>div{
+  height: 495px;
+  width: 445px;
+  /* background-color: red; */
+  position: relative;
+  left: 60px;
+  top: 60px;
+  transform: skewX(-10deg);
+  overflow: hidden;
+}
+
+#college{
+  height: 546px;
+  width: 498px;
+  /* border: 2px solid green; */
+  background-image: url(../image/b-pic.JPG);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 600px 510px;
+  transform: skew(28deg);
+  position: absolute;
+  left: -50px;
+  transition: background-position 500ms linear
+  /* top: 0px; */
+   /* z-index: -4; */
+}
+#college:hover{
+  background-position: 30px 0px;
+  
+
+}
+
+
+#sun{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(245, 149, 54);
+  position: relative;
+  top: 50px;
+  left: 200px;
+  box-shadow:3px 1px 60px rgb(235, 154, 72), 2px 2px 100px rgb(231, 189, 91), 3px 3px 110px rgba(228, 196, 136, 0.816) ;
+}
+
+
+
+/* ! copy cloud */
+
+.cloud2 {
+  position: absolute;
+  top: -120px;
+  scale: 60%;
+  padding: 10px;
+  animation: animateCloud 5s ease-in 0s 1 normal forwards;
+}
+
+@keyframes animateCloud {
+  0%{
+    left: 10px;
+  }100%{
+    left: -300px;
+  }
+  
+}
+
+.base2 {
+  position: relative;
+  top: 500px;
+  width: 450px;
+  height: 20px;
+  background: #ddd4d0;
+  border-radius: 100px;
+  background: linear-gradient(#fff, #ddd4d0 40%);
+}
+
+.base2half {
+  position: absolute;
+  top: -13px;
+  right: 6px;
+  width: 400px;
+  height: 30px;
+  background: #ddd4d0;
+  border-radius: 50% 50% 50% 50%;
+  background: linear-gradient(#fff, #ddd4d0 50%);
+}
+
+.three {
+  content: '';
+  position: absolute;
+  top: -110px;
+  left: 110px;
+  width: 120px;
+  height: 120px;
+  background: #ddd4d0;
+  border-radius: 200% 200% 0% 200%;
+
+  background: radial-gradient(90% 90% at bottom right, #ddd4d0 110%, #fff 130%);
+
+  /* box-shadow: 100px -30px 0 30px #fff; */
+}
+
+.four {
+  content: '';
+  position: absolute;
+  top: -250px;
+  left: 180px;
+  width: 170px;
+  height: 255px;
+  background: #ddd4d0;
+  border-radius: 50% 50% 0% 0%;
+
+  background: radial-gradient(70% 100% at bottom, #ddd4d0 90%, #fff 100%);
+
+}
+
+.five {
+  content: '';
+  position: absolute;
+  top: -180px;
+  left: 310px;
+  width: 120px;
+  height: 200px;
+  background: #ddd4d0;
+  border-radius: 90% 100% 100% 100%;
+  transform: rotate(20deg);
+  /* background: radial-gradient(75% 110% at bottom, #ddd4d0 85%, #fff 90%); */
+
+}
+
+.six {
+  content: '';
+  position: absolute;
+  top: -180px;
+  left: 180px;
+  width: 160px;
+  height: 160px;
+  background: #ddd4d0;
+  border-radius: 50%;
+  background: radial-gradient(95% 85% at bottom right, #ddd4d0 120%, #fff 130%);
+  /* box-shadow: 100px -30px 0 30px #fff;  */
+}
+
+
+.seven {
+  content: '';
+  position: absolute;
+  top: -115px;
+  left: 240px;
+  width: 100px;
+  height: 100px;
+  background: #ddd4d0;
+  border-radius: 50%;
+  background: radial-gradient(110% 90% at bottom right, #ddd4d0 100%, #fff 130%);
+  /* box-shadow: 100px -30px 0 30px #fff; */
+
+}
+
+/* ! copy cloud  code End*/
